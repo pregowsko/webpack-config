@@ -1,5 +1,6 @@
 import "../styles/index.scss";
 import Recipes from "./Recipes";
+import people from "../images/people.jpg";
 
 const App = () => {
     return (
@@ -7,11 +8,10 @@ const App = () => {
             <section className="hero"></section>
             <main>
                 <section>
-                    <h1>Oh hi, React</h1>
                 </section>
+                <img src={people} alt="people" width="250"/>
+                <Recipes />
             </main>
-
-            <Recipes />
         </>
     );
 };
