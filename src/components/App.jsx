@@ -1,6 +1,6 @@
 import "../styles/index.scss";
 import Recipes from "./Recipes";
-import people from "../images/people.jpg";
+
 
 const App = () => {
     return (
